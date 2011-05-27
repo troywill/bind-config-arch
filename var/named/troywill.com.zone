@@ -1,0 +1,10 @@
+$TTL 86400
+@     IN     SOA    ns1.troywill.com. (
+                    9          ; serial
+                    21600      ; refresh after 6 hours
+                    3600       ; retry after 1 hour
+                    604800     ; expire after 1 week
+                    86400 )    ; minimum TTL of 1 day
+
+      IN     NS     ns1.troywill.com.
+             ; IN     A       71.104.11.111
