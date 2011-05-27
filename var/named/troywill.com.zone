@@ -1,10 +1,11 @@
 $TTL 86400
-@     IN     SOA    ns1.troywill.com. (
-                    9          ; serial
-                    21600      ; refresh after 6 hours
-                    3600       ; retry after 1 hour
-                    604800     ; expire after 1 week
-                    86400 )    ; minimum TTL of 1 day
-
-      IN     NS     ns1.troywill.com.
-             ; IN     A       71.104.11.111
+$ORIGIN troywill.com.
+@     IN     SOA    ns1.troywill.com.	root.troywill.com. (
+      	     	    84 216 360 6048 100
+		    )
+       IN     NS     ns1.troywill.com.
+ns1    IN     A	     71.104.11.111
+@      IN     A	     71.104.11.111
+www    IN     A	     71.104.11.111
+lady   IN     A	     71.104.11.111
+dog    IN     A	     71.104.11.111
